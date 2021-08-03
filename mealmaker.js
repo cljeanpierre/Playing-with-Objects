@@ -1,3 +1,8 @@
-// Viewing Objects
+// Create a menu object featuring courses 
 
-console.log(Math);
+const menu = {
+    _courses: {
+
+    },
+
+};

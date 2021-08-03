@@ -26,4 +26,20 @@ const menu = {
     set desserts(dessert) {
         this._courses.desserts = dessert;
     },
+
+    get courses() {
+        return {
+            appetizers: this.appetizers,
+            mains: this.mains,
+            desserts: this.desserts,
+        };
+    },
+    
+    addDishToCourse(courseName, dishName, dishPrice) {
+        const dish = {
+            name: dishName,
+            price: dishPrice
+        };
+
+    }
 };

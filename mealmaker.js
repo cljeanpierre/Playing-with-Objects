@@ -42,5 +42,11 @@ const menu = {
         };
         return  this._courses[courseName].push(dish);
     },
-    
+
+    getRandomDishFromCourse(courseName) {
+        const dishes = this._courses[courseName];
+        const randomIndex = Math.floor(Math.random() * dishes.length);
+        return dishes[randomIndex];
+    },
+
 };

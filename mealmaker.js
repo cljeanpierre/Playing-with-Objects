@@ -58,3 +58,16 @@ const menu = {
     }
 };
 
+menu.addDishToCourse('appetizers','calamari rings', 12.50);
+menu.addDishToCourse('appetizers', 'avocado rolls', 7.00);
+menu.addDishToCourse('appetizers', 'duck wings', 15.00);
+
+menu.addDishToCourse('mains', 'filet mignon', 55.00);
+menu.addDishToCourse('mains', 'lobster mac and cheese', 25.00);
+menu.addDishToCourse('mains', 'lamb rib chops', 50.00);
+
+menu.addDishToCourse('desserts', 'chocolate espresso cake', 12.00);
+menu.addDishToCourse('desserts', 'creme brulee', 12.00);
+menu.addDishToCourse('desserts', 'lychee ice cream with baked apples', 10.00);
+
+
